@@ -31,6 +31,10 @@ public final class Ecosystem {
      */
     public static final String RUBY = "ruby";
     /**
+     * The Dart ecosystem.
+     */
+    public static final String DART = "dart";
+    /**
      * The dotnet ecosystem.
      */
     public static final String DOTNET = "dotnet";

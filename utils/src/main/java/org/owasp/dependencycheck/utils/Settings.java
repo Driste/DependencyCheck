@@ -623,6 +623,10 @@ public final class Settings {
          */
         public static final String ANALYZER_CPE_SUPPRESSION_ENABLED = "analyzer.cpesuppression.enabled";
         /**
+         * The properties key for whether the dart pub package analyzer is enabled.
+         */
+        public static final String ANALYZER_PUB_ENABLED = "analyzer.pub.enabled";
+        /**
          * The key to determine if the Dependency Bundling analyzer is enabled.
          */
         public static final String ANALYZER_DEPENDENCY_BUNDLING_ENABLED = "analyzer.dependencybundling.enabled";

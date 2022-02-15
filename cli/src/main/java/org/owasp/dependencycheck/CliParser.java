@@ -443,6 +443,7 @@ public final class CliParser {
                 .addOption(newOption(ARGUMENT.DISABLE_COCOAPODS, "Disable the CocoaPods Analyzer."))
                 .addOption(newOption(ARGUMENT.DISABLE_SWIFT, "Disable the swift package Analyzer."))
                 .addOption(newOption(ARGUMENT.DISABLE_SWIFT_RESOLVED, "Disable the swift package resolved Analyzer."))
+                .addOption(newOption(ARGUMENT.DISABLE_PUB, "Disable the Dart Pub package Analyzer."))
                 .addOption(newOption(ARGUMENT.DISABLE_GO_DEP, "Disable the Golang Package Analyzer."))
                 .addOption(newOption(ARGUMENT.DISABLE_NODE_JS, "Disable the Node.js Package Analyzer."))
                 .addOption(newOption(ARGUMENT.NODE_PACKAGE_SKIP_DEV_DEPENDENCIES, "Configures the Node Package Analyzer to skip devDependencies"))
@@ -1212,6 +1213,10 @@ public final class CliParser {
          * Disables the swift package resolved analyzer.
          */
         public static final String DISABLE_SWIFT_RESOLVED = "disableSwiftPackageResolvedAnalyzer";
+        /**
+         * Disables the dart pub package analyzer.
+         */
+        public static final String DISABLE_PUB = "disablePubPackageAnalyzer";
         /**
          * Disables the Assembly Analyzer.
          */

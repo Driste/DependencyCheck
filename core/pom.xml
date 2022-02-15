@@ -169,6 +169,11 @@ Copyright (c) 2012 Jeremy Long. All Rights Reserved.
     </build>
     <dependencies>
         <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.30</version>
+        </dependency>
+        <dependency>
             <groupId>org.anarres.jdiagnostics</groupId>
             <artifactId>jdiagnostics</artifactId>
         </dependency>
